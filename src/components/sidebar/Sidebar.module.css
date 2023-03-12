@@ -1,0 +1,11 @@
+.sidebar {
+   grid-row: 2;
+   grid-column: 1;
+}
+
+.sidebar__list {
+   list-style: none;
+
+   padding: 0;
+   width: 95%;
+}

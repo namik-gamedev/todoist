@@ -1,0 +1,9 @@
+.form {
+   margin-top: 20px;
+}
+
+.form__emptyWarning {
+   color: red;
+
+   margin-bottom: 20px;
+}

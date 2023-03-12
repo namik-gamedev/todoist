@@ -1,0 +1,36 @@
+.modal {
+   width: 100vw;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.4);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.modal_hidden {
+   display: none;
+}
+
+.modal__content {
+   padding: 25px;
+
+   max-width: 35%;
+   max-height: 35%;
+   background: #fff;
+
+   display: flex;
+   justify-content: center;
+
+   border-radius: 20px;
+
+   position: relative;
+}
+
+.modal__closeBtn {
+   position: absolute;
+}

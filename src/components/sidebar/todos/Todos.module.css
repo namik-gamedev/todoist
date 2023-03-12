@@ -1,0 +1,25 @@
+.todos {
+   cursor: default;
+}
+
+.todos__content {
+   font-size: 1.3em;
+
+   padding: 8px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   transition: all 200ms ease;
+}
+
+.todos__content:hover {
+   background: #e8e8e8;
+   transform: translateX(10px);
+}
+
+.todos__rightBlock {
+   display: flex;
+   gap: 12px;
+}

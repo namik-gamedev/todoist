@@ -1,0 +1,33 @@
+.todo {
+   cursor: default;
+}
+
+.todo__content {
+   font-size: 1.4em;
+
+   padding: 8px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   transition: all 200ms ease;
+}
+
+.todo__content:hover {
+   background: #e8e8e8;
+}
+
+.todo__title_completed {
+   text-decoration: line-through;
+}
+
+.todo__leftBlock {
+   display: flex;
+   align-items: center;
+}
+
+.todo__rightBlock {
+   display: flex;
+   gap: 12px;
+}
